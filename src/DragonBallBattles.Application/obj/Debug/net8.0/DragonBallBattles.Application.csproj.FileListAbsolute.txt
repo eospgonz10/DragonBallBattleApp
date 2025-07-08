@@ -1,0 +1,16 @@
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/bin/Debug/net8.0/DragonBallBattles.Application.deps.json
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/bin/Debug/net8.0/DragonBallBattles.Application.dll
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/bin/Debug/net8.0/DragonBallBattles.Application.pdb
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/bin/Debug/net8.0/DragonBallBattles.Domain.dll
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/bin/Debug/net8.0/DragonBallBattles.Domain.pdb
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.csproj.AssemblyReference.cache
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.AssemblyInfoInputs.cache
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.AssemblyInfo.cs
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.csproj.CoreCompileInputs.cache
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.sourcelink.json
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBa.04A83ACF.Up2Date
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.dll
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/refint/DragonBallBattles.Application.dll
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/DragonBallBattles.Application.pdb
+/workspaces/DragonBallBattleApp/src/DragonBallBattles.Application/obj/Debug/net8.0/ref/DragonBallBattles.Application.dll
