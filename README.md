@@ -124,19 +124,16 @@ Puede acceder a la URL y utilizar el API.
 # Obtener token JWT
 POST /api/auth/login
 {
-  "username": "admin",
-  "password": "password"
+  "username": "admin@pruebasemtelco.com",
+  "password": "admin123456!/*-"
 }
 ```
 
 ### Generar Cronograma de Batallas
 ```bash
 # Generar batallas (requiere autenticación)
-POST /api/battles/schedule
+POST /api/battles/{numeroParticipantes}/schedule
 Authorization: Bearer <jwt-token>
-{
-  "numeroParticipantes": 12
-}
 ```
 
 ### Respuesta Esperada
