@@ -50,18 +50,6 @@ El backend está construido bajo .NET 8. Por lo tanto, para su correcto funciona
 
 ## 🔐 Configuración Inicial
 
-### ⚠️ IMPORTANTE: Variables de Entorno
-Antes de ejecutar la aplicación, configura las variables de entorno requeridas:
-
-```bash
-# Para desarrollo local
-source ./setup-dev-env.sh
-
-# O manualmente
-export JWT_SECRET_KEY="tu_clave_secreta_de_desarrollo_minimo_32_caracteres"
-export ASPNETCORE_ENVIRONMENT="Development"
-```
-
 ## 🚀 Inicio Rápido
 
 ### Instalación
@@ -72,22 +60,17 @@ export ASPNETCORE_ENVIRONMENT="Development"
    cd DragonBallApp
    ```
 
-2. **Configurar variables de entorno**
-   ```bash
-   source ./setup-dev-env.sh
-   ```
-
-3. **Restaurar dependencias**
+2. **Restaurar dependencias**
    ```bash
    dotnet restore
    ```
 
-4. **Ejecutar la aplicación**
+3. **Ejecutar la aplicación**
    ```bash
    dotnet run --project src/DragonBallBattles.API
    ```
 
-5. **Acceder a la documentación**
+4. **Acceder a la documentación**
    - API: `https://localhost:7001`
    - Swagger: `https://localhost:7001/swagger`
 
@@ -103,9 +86,6 @@ dotnet test tests/DragonBallBattles.Tests.Unit
 
 # Ejecutar pruebas de integración
 dotnet test tests/DragonBallBattles.Tests.Integration
-
-# Ejecutar con cobertura
-dotnet test --collect:"XPlat Code Coverage"
 ```
 
 Las pruebas se encuentran en:
@@ -152,19 +132,6 @@ Authorization: Bearer <jwt-token>
 }
 ```
 
-## 🧪 Pruebas
-
-```bash
-# Ejecutar todas las pruebas
-dotnet test
-
-# Ejecutar solo pruebas unitarias
-dotnet test tests/DragonBallBattles.Tests.Unit
-
-# Ejecutar con cobertura
-dotnet test --collect:"XPlat Code Coverage"
-```
-
 ## Construido con 🛠️
 
 ### Arquitectura de Programación
@@ -176,7 +143,6 @@ dotnet test --collect:"XPlat Code Coverage"
 ### Tecnologías
 - **.NET 8** - Framework principal
 - **ASP.NET Core Web API** - API REST
-- **Entity Framework Core** - ORM (preparado para uso futuro)
 - **Serilog** - Logging estructurado
 - **FluentValidation** - Validaciones
 - **xUnit** - Testing framework
@@ -187,14 +153,12 @@ dotnet test --collect:"XPlat Code Coverage"
 ### Patrones y Principios
 - **Wrapper (Respuestas)** - Respuestas uniformes
 - **Inyección de Dependencias** - Inversión de control
-- **Variables de Entorno** - Configuración segura
 - **Clean Code** - Código limpio y mantenible
 
 ## Wiki 📖
 Información útil sobre los frameworks y plugins utilizados en el proyecto:
 
 - [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) - Framework web
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/) - ORM
 - [Serilog](https://serilog.net/) - Logging estructurado
 - [FluentValidation](https://docs.fluentvalidation.net/) - Validaciones
 - [xUnit](https://xunit.net/) - Testing framework
@@ -240,8 +204,7 @@ Este proyecto está bajo propiedad pública para propósitos de prueba técnica.
 
 ## 🔗 Enlaces Útiles
 
-- [Documentación de la API Dragon Ball](https://dragonball-api.com/)
-- [Variables de Entorno](/.env.example)
+- [Documentación de la API Dragon Ball](https://dragonball-api.com/api/characters?page=1&limit={numeroParticipantes})
 - [Perfil LinkedIn - Estiven Ospina](https://www.linkedin.com/in/estiven-ospina/)
 
 ---
