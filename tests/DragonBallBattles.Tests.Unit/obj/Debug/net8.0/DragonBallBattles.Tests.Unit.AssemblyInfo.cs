@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DragonBallBattles.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc5a71815f2f59be45f70233d382aafcd16279e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eb4942ba791888f46c0f818571d88312187c844")]
 [assembly: System.Reflection.AssemblyProductAttribute("DragonBallBattles.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DragonBallBattles.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
