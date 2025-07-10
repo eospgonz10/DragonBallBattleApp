@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DragonBallBattles.Domain\DragonBallBattles.Domain.csproj" />
-    <ProjectReference Include="..\DragonBallBattles.Application\DragonBallBattles.Application.csproj" />
+    <!-- <ProjectReference Include="..\DragonBallBattles.Application\DragonBallBattles.Application.csproj" /> -->
   </ItemGroup>
 
   <ItemGroup>
