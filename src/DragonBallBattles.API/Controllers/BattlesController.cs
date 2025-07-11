@@ -13,12 +13,10 @@ namespace DragonBallBattles.API.Controllers;
 public class BattlesController : ControllerBase
 {
     private readonly IBattleScheduler _battleScheduler;
-    private readonly ICharacterRepository _characterRepository;
 
-    public BattlesController(IBattleScheduler battleScheduler, ICharacterRepository characterRepository)
+    public BattlesController(IBattleScheduler battleScheduler)
     {
         _battleScheduler = battleScheduler;
-        _characterRepository = characterRepository;
     }
 
     [HttpPost("{numeroParticipantes}/schedule")]
@@ -26,9 +24,8 @@ public class BattlesController : ControllerBase
     {
         try
         {
-            var characters = await _characterRepository.GetCharactersAsync(numeroParticipantes);
             var startDate = DateTime.UtcNow.Date.AddDays(30);
-            var battles = _battleScheduler.ScheduleBattles(characters, startDate);
+            var battles = await _battleScheduler.ScheduleBattlesAsync(numeroParticipantes, startDate);
             var result = new
             {
                 batallas = battles.Select(b => new BattleDto
@@ -41,7 +38,6 @@ public class BattlesController : ControllerBase
         }
         catch (DomainException ex)
         {
-            // Excepciones de negocio - devolver BadRequest sin loguear como error
             return BadRequest(new { success = false, error = ex.Message });
         }
     }

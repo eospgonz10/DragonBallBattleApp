@@ -36,7 +36,7 @@ public class AuthService
         };
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-        var expiresIn = int.TryParse(_configuration["Jwt:ExpiresInMinutes"], out var min) ? min : 120;
+        var expiresIn = int.TryParse(_configuration["Jwt:ExpiresInMinutes"], out var min) ? min : 60;
         var tokenDescriptor = new SecurityTokenDescriptor
         {
             Subject = new ClaimsIdentity(claims),

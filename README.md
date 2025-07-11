@@ -10,8 +10,6 @@ Este proyecto corresponde a una prueba técnica para la vacante de desarrollador
 - ✅ **Principios SOLID** aplicados en toda la solución
 - ✅ **Clean Code** - Convenciones de naming, métodos focalizados
 - ✅ **Autenticación JWT** - Sistema de tokens seguro
-- ✅ **Logging Estructurado** - Serilog con múltiples outputs
-- ✅ **Validaciones** - FluentValidation para DTOs
 - ✅ **Pruebas Unitarias** - xUnit framework
 - ✅ **Documentación API** - Swagger/OpenAPI
 - ✅ **Medidas de Seguridad** - Validaciones, CORS, manejo de errores
@@ -150,21 +148,13 @@ Authorization: Bearer <jwt-token>
 - **JWT Bearer** - Autenticación
 - **HttpClient** - Consumo de APIs externas
 
-### Patrones y Principios
-- **Wrapper (Respuestas)** - Respuestas uniformes
-- **Inyección de Dependencias** - Inversión de control
-- **Clean Code** - Código limpio y mantenible
-
 ## Wiki 📖
 Información útil sobre los frameworks y plugins utilizados en el proyecto:
 
 - [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/) - Framework web
-- [Serilog](https://serilog.net/) - Logging estructurado
 - [FluentValidation](https://docs.fluentvalidation.net/) - Validaciones
 - [xUnit](https://xunit.net/) - Testing framework
 - [Swagger](https://swagger.io/) - Documentación API
-- [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/) - Patrón arquitectónico
-- [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) - Arquitectura limpia
 
 ## 🔧 Configuración
 
